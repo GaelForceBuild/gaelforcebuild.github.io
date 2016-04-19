@@ -1,2 +1,2 @@
 # gaelforcebuild.github.io
-Just the dummy site
+Just the beginning website.
