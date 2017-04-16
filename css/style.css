@@ -1,0 +1,89 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	width: 100%;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+
+.teal .nav-wrapper > .active a, .navbar .nav > .active a:hover, .navbar .nav > li a:hover {
+        background:rgba(210,105,30, 0.1); text-shadow:none;
+         background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+    }   
+.hero1 {
+	width: 100%;
+	min-height: 40%;
+	position: relative;
+ 	background: url(../img/bg.jpg) repeat 0 0; 
+    z-index: 5;
+    
+}
+.hero2 {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  background: url(../img/bg.jpg) repeat 0 0; 
+    z-index: 5;
+    
+}
+.hero1 and .hero2 .container{
+	
+	margin-top: 20%;
+	margin-bottom: 20%;
+ 	
+}
+.hero1 h1{
+	color: white;
+}
+.hero1 h5{
+	color: white;
+}
+.btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0;
+    cursor: pointer;
+    display: inline-block
+}
+.btn.button1 {
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transition: color 600ms ease, background-color 600ms ease
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.btn.button1:hover {
+    color: #212121;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  position: fixed; 
+  bottom: 0px; 
+  width: 100%;
+  z-index: -100;
+  padding-top: 5000px; 
+  background: #565353 !important;
+}
+.page-footer{
+  background: #565353 !important;
+
+}
+
