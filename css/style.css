@@ -19,7 +19,7 @@ body {
     }   
 .hero1 {
 	width: 100%;
-	min-height: 40%;
+	min-height: 90%;
 	position: relative;
  	background: url(../img/bg.jpg) repeat 0 0; 
     z-index: 5;
@@ -33,7 +33,7 @@ body {
     z-index: 5;
     
 }
-.hero1 and .hero2 .container{
+.hero1  .container{
 	
 	margin-top: 20%;
 	margin-bottom: 20%;
