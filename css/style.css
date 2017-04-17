@@ -23,7 +23,7 @@ body {
 	min-height: 90%;
   position: relative;
  	background: url(../img/bg.png) repeat 0 0;
-   background-size:  100%;
+   background-size:  cover, 100%;
   background-repeat: no-repeat; 
 
 }
