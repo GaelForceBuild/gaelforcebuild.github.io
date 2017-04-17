@@ -14,6 +14,7 @@
 			<div class="blue nav-wrapper">
 			  <div class="container">
 				<a href="/index" class="brand-logo">Gael Force Build</a>
+
 				 
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -40,7 +41,8 @@
 			<div class="row" style="margin-top:75px;">
 				<div class="col s6">
 					<div class="logo">
-						<img src="img/logo.png" style="width: 300px; height: 150px;">
+						<!-- <img src="img/logo.png" style="width: 300px; height: 150px;"> -->
+						<div id="banner-load"></div>
 					</div>
 				</div>
 			
@@ -115,6 +117,10 @@
     <script type="text/javascript">
 		$(".button-collapse").sideNav();
 		$('.modal').modal({dismissible: false})
+	</script>
+	<script>
+	 	var images = ['mech.png','cs.png','ee.png','main.png','main2.png']
+	 	$('<img class="fade-in" src="img/'+ images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');
 	</script>
 
 
