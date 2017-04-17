@@ -21,15 +21,20 @@ body {
 .hero1 {
 	width: 100%;
 	min-height: 90%;
-	position: relative;
- 	background: url(../img/bg.jpg) repeat 0 0; 
+  position: relative;
+ 	background: url(../img/bg.png) repeat 0 0;
+   background-size:  100%;
+  background-repeat: no-repeat; 
+
 }
 .hero2 {
   width: 100%;
   height: 30%;
   position: relative;
-  background: url(../img/bg.jpg) repeat 0 0; 
+  background: url(../img/bg2.jpg) repeat 0 0; 
+  background-size:  100%;
   z-index: 1;
+  background-repeat: no-repeat;
 }
 
 .hero1  .container{
@@ -82,14 +87,21 @@ footer {
   width: 100%;
   z-index: -1;
   padding-top: 5000px; 
-  background: #565353 !important;
-}
-
-.page-footer{
-  background: #565353 !important;
-
+  background: #072e57 !important;
 }
 
 #banner-load{
   z-index: -100 !important;
+}
+
+
+
+.logo img{
+  width: 300px; 
+  height: 140px;"
+}
+
+nav .logo img{
+  width: 171px; 
+  height: 80px;"
 }
