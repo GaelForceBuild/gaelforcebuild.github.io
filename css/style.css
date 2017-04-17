@@ -12,39 +12,39 @@ body {
 
 
 .teal .nav-wrapper > .active a, .navbar .nav > .active a:hover, .navbar .nav > li a:hover {
-        background:rgba(210,105,30, 0.1); text-shadow:none;
-         background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-    }   
+  background:rgba(210,105,30, 0.1); text-shadow:none;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}   
+
 .hero1 {
 	width: 100%;
 	min-height: 90%;
 	position: relative;
  	background: url(../img/bg.jpg) repeat 0 0; 
-
-    
 }
 .hero2 {
   width: 100%;
   height: 30%;
   position: relative;
   background: url(../img/bg.jpg) repeat 0 0; 
-    z-index: 1;
-    
+  z-index: 1;
 }
+
 .hero1  .container{
-	
 	margin-top: 20%;
 	margin-bottom: 20%;
- 	
 }
+
 .hero1 h1{
 	color: white;
 }
+
 .hero1 h5{
 	color: white;
 }
+
 .btn {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -56,6 +56,7 @@ body {
     cursor: pointer;
     display: inline-block
 }
+
 .btn.button1 {
     letter-spacing: 1px;
     color: #ffffff;
@@ -63,9 +64,10 @@ body {
     background-color: transparent;
     transition: color 600ms ease, background-color 600ms ease
     -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
+
 .btn.button1:hover {
     color: #212121;
     background-color: #ffffff;
@@ -82,6 +84,7 @@ footer {
   padding-top: 5000px; 
   background: #565353 !important;
 }
+
 .page-footer{
   background: #565353 !important;
 

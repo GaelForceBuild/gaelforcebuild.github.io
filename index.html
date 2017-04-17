@@ -9,7 +9,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-
 <body id="build">
 	<div class="navbar-fixed">
 		<nav>
@@ -43,7 +42,7 @@
 					<div class="logo">
 						<!-- <img src="img/logo.png" style="width: 300px; height: 150px;"> -->
 
-						<div id="banner-load"></div>
+						<!-- <div id="banner-load"></div> -->
 					</div>
 					
 					<h5>Make the Future Today</h5>
@@ -111,7 +110,7 @@
 	</script>
 	<script>
 	 var images = ['mech.png','cs.png','ee.png','main.png','main2.png']
-	 $('<img class="fade-in" src="img/'+ images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');
+	 $('.logo').html('<img style="width: 300px; height: 150px;" src="img/'+ images[Math.floor(Math.random() * images.length)] + '">');
 	 </script>
 
 
